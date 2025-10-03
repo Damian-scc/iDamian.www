@@ -78,3 +78,50 @@ display: flex;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
+/* Stylizacja listy napojów */
+.drink-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.drink-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px gray
+}
+
+.drink-card img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.drink-info {
+    flex: 1;
+    text-align: left;
+}
+
+.drink-info h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #222;
+}
+
+.drink-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #d32f2f;
+    font-size: 18px;
+}
